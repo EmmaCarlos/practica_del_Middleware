@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "evirgilio",
+    "email": "evirgilio@digitalhouse.com",
+    "admin": true,
+    "password": "$2b$10$uCgGP.cnH7B.nhBlWv6imeCaTU7BKhyvXAafYAykKQd8mNjVFI1Eq",
+    "avatar": null
+  },
+  {
+    "id": 2,
+    "name": "pamburki1313",
+    "email": "pamburki1313@digitalhouse.com",
+    "admin": true,
+    "password": "$2b$10$RpXu5YPwsPCtI9FJ33ATzu99mQzKWXpenom5lMYtyYxIa3aNPwsjS",
+    "avatar": null
+  },
+  {
+    "id": 3,
+    "name": "carlitos.benitez",
+    "email": "carlitos.benitez@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$JlYXuXQH68tUjTA1Go2tqO9xzDGiIah7UoSc9xSAj/7qGW8QA3/Ea",
+    "avatar": null
+  },
+  {
+    "id": 4,
+    "name": "fox007b02s",
+    "email": "fox007b02s@gmail.com",
+    "admin": false,
+    "password": "$2b$10$N2YdFo82ty1rPSmSat.OkuLDRxevKhwbm7hTRO4TVeC4ngDA6CCg6",
+    "avatar": null
+  },
+  {
+    "id": 5,
+    "name": "carlitos.benitez22",
+    "email": "carlitos.benitez22@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$OwL6m9oItnWACZCuHDIcq.mhe.ac5/S.YuCrajYTC.Qrznwo9sw0C",
+    "avatar": "avatar1628034979584.jpg"
+  },
+  {
+    "id": 6,
+    "name": "carlitos.benitez1",
+    "email": "carlitos.benitez1@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$X8B6IsLLUHk3lFaxj0GQqupcDh1T29HxZHT4SZQKNk3.tHPwqSYnm",
+    "avatar": "avatar1628096280581.jpg"
+  },
+  {
+    "id": 7,
+    "name": "carlitos.benitez2",
+    "email": "carlitos.benitez2@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$pW6VsvselV9qfw8TYV8gsOG4j9R3We47xABfo695nvx6RLpAClRpO",
+    "avatar": "avatar1628096389114.jpg"
+  },
+  {
+    "id": 8,
+    "name": "carlitos.benitez3",
+    "email": "carlitos.benitez3@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$naYFlEdLzbOFc5MEGzAzR.oIwu2e1z/5WdfBd0UEI6F8UhlpSmf3i",
+    "avatar": "avatar1628099117364.jpg"
+  }
+]

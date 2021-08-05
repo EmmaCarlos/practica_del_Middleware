@@ -1,0 +1,63 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0984e3;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-flow: row wrap;
+}
+
+form{
+  background-color: #dfe6e9;
+  width: 30vw;
+  height: 50vh;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: .25rem;
+  margin-right: 2vh;
+}
+
+form fieldset{
+  flex: 1 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+form fieldset input{
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+form fieldset input[type="file"]{display:none}
+
+nav{
+  display: flex;
+  height: 3rem;
+  width: 30vw;
+  justify-content: space-between;
+}
+nav a{
+  text-decoration: none;
+  color: #dfe6e9;
+  background-color:#0984e3;
+  padding: .75rem;
+  font: 1.25rem sans-serif;
+  transition: all .2s ease-in-out;
+  border-radius: 3rem;
+  width: 40%;
+  text-align: center;
+}
+nav a:hover{
+  background-color: #dfe6e9;
+  color: #0984e3
+}

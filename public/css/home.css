@@ -1,0 +1,29 @@
+body{
+  background-color: #dfe6e9;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-flow: row wrap;
+}
+nav{
+  display: flex;
+  height: 3rem;
+  width: 25vw;
+  justify-content: space-between;
+}
+nav a{
+  text-decoration: none;
+  color: #dfe6e9;
+  background-color:#d63031;
+  padding: .75rem;
+  font: 1.25rem sans-serif;
+  transition: all .2s ease-in-out;
+  border-radius: 3rem;
+  width: 40%;
+  text-align: center;
+}
+nav a:hover{
+  background-color: #ff7675;
+  color: #2d3436
+}

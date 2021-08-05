@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../partials/head") %>
+<body>
+  <form action="/user/save" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <label for="email">Email</label>
+      <input type="email" 
+      name="email" 
+      id="email" 
+      value="<%= locals.errors && !locals.errors.email? data.email: null %>">
+      <% if(locals.errors && locals.errors.email){  %>
+         <span class="error"> <%= locals.errors.email.msg %> </span>
+        <% }%>
+          
+    </fieldset>
+    <fieldset>
+      <label for="password">Password</label>
+      <input type="password" 
+      name="password" 
+      id="password"
+      value="<%= locals.errors && !locals.errors.password? data.password:null%>">
+      <% if(locals.errors && locals.errors.password){  %>
+        <span class="error"> <%= locals.errors.password.msg %> </span>
+       <% }%>
+    </fieldset>
+    <fieldset>
+      <label for="avatar"><i class="fas fa-camera"></i></label>
+      <input type="file" name="avatar" id="avatar">
+    </fieldset>
+    <fieldset>
+      <button type="submit"><i class="fas fa-plus"></i></button>
+    </fieldset>
+  </form>
+  <nav>
+    <a href="/">back <i class="fas fa-home"></i></a>
+    <a href="/user/login">access <i class="fas fa-plus"></i></a>
+  </nav>
+</body>
+</html>

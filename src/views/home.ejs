@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partials/head") %>
+<body>
+  <% if(user) {%>
+  <h1>Awesome!, your are logged <%= user.name %> </h1>
+  <nav>
+    <a href="/user/logout"> Out <i class="fas fa-sing-out"></i></a>
+  </nav>
+  <% } else {%>
+    <nav>
+      <a href="/user/login">Access  <i class="fas fa-wifi"></i> </a>
+      <a href="/user/register">Join  <i class="fas fa-plus"></i> </a>
+    </nav>
+  <% }%>
+</body>
+</html>
