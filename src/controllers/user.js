@@ -1,6 +1,5 @@
 const userModel = require("../models/user");
 const {validationResult} = require ("express-validator");
-const validRegister = require("../middlewares/validRegister");
 const fs= require('fs')
 const path= require('path')
 
@@ -52,15 +51,27 @@ module.exports = {
         )
       )
     }
-      res.render("users/login", {
+      res.render("users/login", {/*mostrar en la vistas los errores*/
         title:"Access",
-        errors:errors.mapped(), 
-        data:req.body});
-    }
+        errors:errors.mapped(), /* mejor vista con mapped*/
+        data:req.body});/*pasar la vieja data*/
+    }//pasando a la vista los errores
   },
   update: (req,res) => {
+      userModel.update(req.body,null);
+      delete req.session.user;//elimino la sesion previa
+      let user = userModel.findByEmail(req.body.email);//
+      req.session.user = user;
+      return res.redirect("/")
   },
   avatar: (req,res) => {
+    
+    userModel.update(req.session,req.file);
+    delete req.session.user;
+    let user = userModel.findByEmail(req.body.email);
+    req.session.user = user;
+    return res.redirect("/")
+
   },
   logout: (req,res) => {
     req.session.destroy();

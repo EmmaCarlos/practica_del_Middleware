@@ -2,8 +2,20 @@
 <html lang="en">
 <%- include("partials/head") %>
 <body>
-  <% if(user) {%>
-  <h1>Awesome!, your are logged <%= user.name %> </h1>
+  <% if(user) {%> 
+
+  <% if(user.admin) {%>
+    
+    <h1>Welcome! <%= user.name %>, your are admin</h1>
+    <a href="/user/profile">
+      Profile  <i class="fas fa-user"></i>
+    </a>
+  <% } else {%>
+    <h1>Welcome! <%= user.name %></h1>
+    <a href="/user/profile">
+      Profile  <i class="fas fa-user"></i>
+    </a>
+  <% }%>
   <nav>
     <a href="/user/logout"> Out <i class="fas fa-sing-out"></i></a>
   </nav>

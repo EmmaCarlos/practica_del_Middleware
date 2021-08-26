@@ -9,7 +9,7 @@ module.exports = function (req,res,next){
     if (ultimaPalabra.length > 0 ){//se pone > 0 por la raiz /
         res.locals.styles.push(`/css/${ultimaPalabra}.css`)//se pone `` para interpolar una variable agregar temple literal ${..}
     }else{//en el caso que el length no sea mayo , que redirecione al home
-        res.locals.styles.push (`/css/hom.css`)
+        res.locals.styles.push (`/css/home.css`)
     }
 
     //continuamos con la aplicacion

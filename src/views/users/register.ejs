@@ -5,9 +5,7 @@
   <form action="/user/save" method="post" enctype="multipart/form-data">
     <fieldset>
       <label for="email">Email</label>
-      <input type="email" 
-      name="email" 
-      id="email" 
+      <input type="email" name="email" id="email" 
       value="<%= locals.errors && !locals.errors.email? data.email: null %>">
       <% if(locals.errors && locals.errors.email){  %>
          <span class="error"> <%= locals.errors.email.msg %> </span>

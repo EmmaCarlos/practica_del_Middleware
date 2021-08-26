@@ -62,5 +62,69 @@
     "admin": false,
     "password": "$2b$10$naYFlEdLzbOFc5MEGzAzR.oIwu2e1z/5WdfBd0UEI6F8UhlpSmf3i",
     "avatar": "avatar1628099117364.jpg"
+  },
+  {
+    "id": 9,
+    "name": "carlitos.benitez4",
+    "email": "carlitos.benitez4@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$fxnNsgp0hsuEQDZD70Vw0u7kk9KHVallWd7gdYEHEnf9qns7irjNm",
+    "avatar": "usuario-avatar-1628383478904.jpg"
+  },
+  {
+    "id": 10,
+    "name": "carlitos.benitez4",
+    "email": "carlitos.benitez4@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$kBmQ0aSDI3ZyYUZ6nz1.m.rAeUXhvwcAf7QKiiQe2wLwmEXwK7C0G",
+    "avatar": null
+  },
+  {
+    "id": 11,
+    "name": "carlitos.benitez",
+    "email": "carlitos.benitez@digitalhouse.com",
+    "admin": true,
+    "password": "$2b$10$eZTPl.BezhqtUKOvA75lFuHiJMCRcp0PAp3iBLolZFZF9dBkwUhc.",
+    "avatar": "usuario-avatar-1628384051682.jpg"
+  },
+  {
+    "id": 12,
+    "name": "carlitos.benitez",
+    "email": "carlitos.benitez@digitalhouse.com",
+    "admin": true,
+    "password": "$2b$10$hgeQhcvq/fJHVgjH14YRzugU7mqgHayoXTt5jhsfUP3R6xI.fUiQW",
+    "avatar": "usuario-avatar-1628384109163.jpg"
+  },
+  {
+    "id": 13,
+    "name": "carlitos.benitez",
+    "email": "carlitos.benitez@digitalhouse.com",
+    "admin": true,
+    "password": "$2b$10$DuFO/jBOiXcp0dt0X4l58ubgOv7NOZ2/Ke0q3lak.n4UbQs5u7C.a",
+    "avatar": "usuario-avatar-1628384184343.jpg"
+  },
+  {
+    "id": 14,
+    "name": "carlitos.benitez",
+    "email": "carlitos.benitez@dh.com",
+    "admin": true,
+    "password": "$2b$10$J57VM4wpr5WrV5IrPCr7/OXZiX0b0Xkl59t64GCMxbot/HgqbAeIq",
+    "avatar": "usuario-avatar-1628384277695.jpg"
+  },
+  {
+    "id": 15,
+    "name": "carlitos.benitez5",
+    "email": "carlitos.benitez5@yahoo.com",
+    "admin": false,
+    "password": "$2b$10$v1N.DDJ9gatbRn9cRyNy0.t2aAebOc7QGDg9EEG6kXMWLtMMf9MJW",
+    "avatar": null
+  },
+  {
+    "id": 16,
+    "name": "prueba",
+    "email": "prueba@prueba.com",
+    "admin": false,
+    "password": "$2b$10$fMqYr1K1WR1yFKxFiFDZFuWjI3c5ulWq6iHJa4/29htvJtj6AxZi.",
+    "avatar": null
   }
 ]

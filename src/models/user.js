@@ -51,6 +51,4 @@ module.exports = {
     });
     this.write(users)
   },
-  update:function(data,file,id){
-  }
 }

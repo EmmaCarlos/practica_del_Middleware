@@ -6,7 +6,7 @@ const session = require('express-session');
 const cookie = require('cookie-parser') 
 
 // App Server
-app.set("port",process.env.PORT || 3000)
+app.set("port",process.env.PORT || 3001)
 app.listen(app.get("port"),()=> console.log("server start http://localhost:"+app.get("port")))
 
 // App View
@@ -28,7 +28,7 @@ app.use(session({
 
 //Middlewares Custom
 app.use(require ("./middlewares/styles"));//linqueado de los css
-app.use(require ("./middlewares/user"));//midd de usuario guardarnos y crearnos el usuario visibleo no a la vista 
+app.use(require ("./middlewares/user"));//midd de usuario guardarnos y crearnos el usuario visible o no a la vista 
 // App Routes
 app.use(require("./routes/main"))
 app.use("/user",require("./routes/user"))
